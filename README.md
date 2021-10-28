@@ -7,7 +7,7 @@ A Collection of my C++ Projects
 [BasicGenerics](https://github.com/Shivar-J/Cpp-Projects/tree/BasicGenerics) is a program that utilities generics to add additional functionality to vectors.
 
 ### Snippet of Code
-```c
+```cpp
 template <typename T>
 class VectorExtension{
 private:
@@ -29,7 +29,7 @@ public:
 
 
 ### Snippet of Code
-```c
+```cpp
 for(int l =0; l < twoBytwo.size(); l++){
       cout << "Enter " << l+1 << " number: " << endl;
       int tempNum;
