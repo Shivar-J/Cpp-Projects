@@ -4,7 +4,7 @@ A Collection of my C++ Projects
 
 ## BasicGenerics
 
-[BasicGenerics](https://github.com/Shivar-J/Cpp-Projects/tree/BasicGenerics) is a program that utilities generics to add additional functionality to vectors.
+[BasicGenerics](https://github.com/Shivar-J/Cpp-Projects/blob/BasicGenerics/BasicGenerics/main.cpp) is a program that utilities generics to add additional functionality to vectors.
 
 ### Snippet of Code
 ```cpp
@@ -25,7 +25,7 @@ public:
 
 ## CompetingTables 
 
-[CompetingTables](https://github.com/Shivar-J/Cpp-Projects/tree/CompetingTables) is a simple guessing game using vectors featuring various difficulties.
+[CompetingTables](https://github.com/Shivar-J/Cpp-Projects/blob/CompetingTables/CompetingTables/main.cpp) is a simple guessing game using vectors featuring various difficulties.
 
 
 ### Snippet of Code
