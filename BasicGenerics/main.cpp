@@ -3,11 +3,6 @@
 
 using namespace std;
 
-//intVecExtended.join()
-//intVecExtended.subvector(0, 1)
-//get range of indexes and push back into new vector
-//intvectexntede.insert(0, vector<T> tempVec)
-//https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/
 template<class T>
 T Square(T val)
 {
