@@ -48,6 +48,29 @@ for(int l =0; l < twoBytwo.size(); l++){
     }
 ```
 
+## MatrixV2
+[MatrixV2]() is a program that normalises a matrix or multiply two (2x2) matrices together.
+
+### Snippet of Code
+```cpp
+vector<vector<int>> multiplyMatrix2x2(vector<vector<int>> vec, vector<vector<int>> vec2){
+    int rw = 2;
+    int cl = 2;
+    vector<vector<int>> tempVec(rw, vector<int> (cl));
+    
+    cout << "multiply matrix: " << endl;
+    for(int i = 0; i < rw; i++){
+        for(int j = 0; j < cl; j++){
+            int value = vec[i][j] * vec2[i][j];
+            //cout << value << endl;
+            tempVec[i][j] = value;
+            //tempVec[i].push_back(value);
+        }
+    }
+    return tempVec;
+}
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
