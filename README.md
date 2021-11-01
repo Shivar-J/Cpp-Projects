@@ -49,7 +49,7 @@ for(int l =0; l < twoBytwo.size(); l++){
 ```
 
 ## MatrixV2
-[MatrixV2]() is a program that normalises a matrix or multiply two (2x2) matrices together.
+[MatrixV2](https://github.com/Shivar-J/Cpp-Projects/blob/MatrixV2/main.cpp) is a program that normalises a matrix or multiply two (2x2) matrices together.
 
 ### Snippet of Code
 ```cpp
