@@ -94,6 +94,22 @@ void transpose(vector<vector<int>> &mat){
 }
 ```
 
+## QueueStructures Part 1
+[QueueStructures]() uses queues to add an element to a queue only if it's bigger than the last element.
+
+## Snippet of Code
+```cpp
+void print(queue<int> q){
+    cout << "Current Queue: " << endl;
+    queue<int> tempQueue = q;
+    while(!tempQueue.empty()){
+        cout << tempQueue.front() << " ";
+        tempQueue.pop();
+    }
+    cout << "\n";
+}
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
