@@ -95,7 +95,7 @@ void transpose(vector<vector<int>> &mat){
 ```
 
 ## QueueStructures Part 1
-[QueueStructures]() uses queues to add an element to a queue only if it's bigger than the last element.
+[QueueStructures](https://github.com/Shivar-J/Cpp-Projects/blob/QueueStructuresP1/main.cpp) uses queues to add an element to a queue only if it's bigger than the last element.
 
 ## Snippet of Code
 ```cpp
