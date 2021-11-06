@@ -71,6 +71,29 @@ vector<vector<int>> multiplyMatrix2x2(vector<vector<int>> vec, vector<vector<int
 }
 ```
 
+## RotateMatrix
+[RotateMatrix](https://github.com/Shivar-J/Cpp-Projects/blob/RotateMatrix/RotateMatrix/main.cpp) is a program that rotates a 3x3 matrix clockwise or counter-clockwise.
+
+### Snippet of Code
+```cpp
+void transpose(vector<vector<int>> &mat){
+    if(mat.size() == 0){
+        return;
+    }
+    vector<vector<int>> transposeVec(mat[0].size(), vector<int>());
+
+    for (int i = 0; i < mat.size(); i++)
+    {
+        for (int j = 0; j < mat[i].size(); j++)
+        {
+            transposeVec[j].push_back(mat[i][j]);
+        }
+    }
+
+    mat = transposeVec;
+}
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
