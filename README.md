@@ -31,21 +31,22 @@ public:
 ### Snippet of Code
 ```cpp
 for(int l =0; l < twoBytwo.size(); l++){
-      cout << "Enter " << l+1 << " number: " << endl;
-      int tempNum;
-      cin >> tempNum;
-      twoGuess.push_back(tempNum);
+    cout << "Enter " << l+1 << " number: " << endl;
+    int tempNum;
+    cin >> tempNum;
+    twoGuess.push_back(tempNum);
+  }
+  for(int k = 0; k < 4; k++){
+    if(twoBytwo[k] == twoGuess[k]){
+      cout << "Guess Correct!" << endl;
+      twoTemp.push_back(0);
     }
-    for(int k = 0; k < 4; k++){
-      if(twoBytwo[k] == twoGuess[k]){
-        cout << "Guess Correct!" << endl;
-        twoTemp.push_back(0);
-      }
-      else{
-        cout << "Guess Incorrect!" << endl;
-        twoTemp.push_back(twoBytwo[k]);
-      }
+    else{
+      cout << "Guess Incorrect!" << endl;
+      twoTemp.push_back(twoBytwo[k]);
     }
+  }
+}
 ```
 
 ## MatrixV2
@@ -107,6 +108,29 @@ void print(queue<int> q){
         tempQueue.pop();
     }
     cout << "\n";
+}
+```
+
+## FibonacciSequence
+[Fibonacci Sequence](https://github.com/Shivar-J/Cpp-Projects/blob/Fibonacci/OddEvenFibonacci/main.cpp) creates the fibonacci sequence up to the users inputed number.
+
+## Snippet of Code
+```cpp
+for(int i = 1; i <= userNum+1; i++){
+    if(i == 1){
+        continue;
+    }
+    if(i == 2){
+        cout << secondNum << " ";
+        continue;
+    }
+    if(tempNum % 2 == 0){
+        evenNum += tempNum;
+    }
+    tempNum = firstNum + secondNum;
+    firstNum = secondNum;
+    secondNum = tempNum;
+    cout << tempNum << " ";
 }
 ```
 
