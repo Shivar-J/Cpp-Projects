@@ -134,6 +134,22 @@ for(int i = 1; i <= userNum+1; i++){
 }
 ```
 
+## CharacterCounter
+[CharacterCounter](https://github.com/Shivar-J/Cpp-Projects/blob/CharacterCounter/CharacterCounter/main.cpp) takes a user input and counter the number of each characters in the input.
+
+## Snippet of Code
+```cpp
+unordered_map<char, int> letterCount;
+    
+for(int i = 0; i < input.size(); i++){
+    if(letterCount.find(input[i]) == letterCount.end()){
+        letterCount.insert(make_pair(input[i], 1));
+    } else {
+        letterCount[input[i]]++;
+    }
+}
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
