@@ -150,6 +150,19 @@ for(int i = 0; i < input.size(); i++){
 }
 ```
 
+## PerfectNumbers
+[PerfectNumbers](https://github.com/Shivar-J/Cpp-Projects/blob/PerfectNumbers/PerfectNumbers/main.cpp) takes a input and finds all the divisors except for itself and adds them together, if it is equal to the input it is a perfect number otherwise it is not. (This codes a bit messy, not my best work)
+
+### Snippet of Code
+```cpp
+for(int i = 0; i < number; i++){
+        if(number % i == 0){
+            cout << i << " ";
+            tempNums.push_back(i);
+        }
+    }
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
