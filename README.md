@@ -163,6 +163,18 @@ for(int i = 0; i < number; i++){
     }
 ```
 
+## Challenge Problem 'Sentences'
+[Setences](https://github.com/Shivar-J/Cpp-Projects/blob/Sentences/Sentences/main.cpp) is a challenge problem where you have to add commas after every other word.
+
+### Snippet of Code
+```cpp
+replace(sentence.begin(), sentence.end(), ',', '\0');
+replace(sentence.begin()+start, sentence.begin()+(start + 1), ' ', '*');
+start = sentence.find(" ");
+replace(sentence.begin()+start, sentence.begin()+(start + 1), ' ', '*');
+replace(sentence.begin(), (sentence.begin() + end), ' ', ',');
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
