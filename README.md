@@ -23,6 +23,24 @@ public:
 };
 ```
 
+## TransposingMatrix
+[TransposingMatrix](https://github.com/Shivar-J/Cpp-Projects/blob/TransposingMatrix/TransposingMatrix/main.cpp) transposes a given matrix.
+
+### Snippet of Code
+```cpp
+void Transpose(vector<vector<int>> matrix, int size) {
+    vector<vector<int>> tempVec (size, vector<int> (size));
+    
+    for(int i = 0; i < size; i++) {
+        for(int j = 0; j < size; j++) {
+            tempVec[i][j] = matrix[j][i];
+            cout << tempVec[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+``
+
 ## CompetingTables 
 
 [CompetingTables](https://github.com/Shivar-J/Cpp-Projects/blob/CompetingTables/CompetingTables/main.cpp) is a simple guessing game using vectors featuring various difficulties.
