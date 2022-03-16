@@ -206,7 +206,7 @@ for(int i = 0; i < iter; i++) {
 ```
 
 ## ExceptionHandling Part 1
-[ExceptionHandling](https://github.com/Shivar-J/Cpp-Projects/blob/ExceptionHandling1/ExceptionHandling/main.cpp) displays basic error handling.
+[ExceptionHandling Part 1](https://github.com/Shivar-J/Cpp-Projects/blob/ExceptionHandling1/ExceptionHandling/main.cpp) displays basic error handling.
 
 ### Snippet of Code
 ```cpp
@@ -222,6 +222,23 @@ for(int i = 0; i < stringNums.size(); i++) {
         cout << "Invalid Input!" << endl;
         continue;
     }
+}
+```
+
+## ExceptionHandling Part 2
+[ExceptionHandling Part 2](https://github.com/Shivar-J/Cpp-Projects/blob/ExceptionHandling2/ExceptionHandling2/main.cpp) displays basic error handling.
+
+### Snippet of Code
+```cpp
+try {
+    if(stof(addNum)) {
+        float tempNum = stof(addNum);
+        nums.push_back(tempNum);
+    } else {
+        throw (addNum);
+    }
+} catch(string numAdd) {
+    cout << "Invalid Input!" << endl << "Input was " << numAdd << endl;
 }
 ```
 
