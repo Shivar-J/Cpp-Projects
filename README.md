@@ -156,15 +156,39 @@ for(int i = 0; i < input.size(); i++){
 ### Snippet of Code
 ```cpp
 for(int i = 0; i < number; i++){
-        if(number % i == 0){
-            cout << i << " ";
-            tempNums.push_back(i);
-        }
+    if(number % i == 0){
+        cout << i << " ";
+        tempNums.push_back(i);
     }
+}
+```
+
+## ParsingPixels
+[ParsingPixels](https://github.com/Shivar-J/Cpp-Projects/blob/ParsingPixels/ParsingPixels/main.cpp) takes a single input and splits into 3 ints red, green, and blue. Then checks if it is greater than 256.
+
+### Snippet of Code
+```cpp
+for(int i = 0; i < iter; i++) {
+    vector<int> tempVec;
+    string str;
+    getline(cin, str);
+    istringstream split(str);
+
+    string num;
+
+    while(split >> num) {
+        tempVec.push_back(stoi(num));
+    }
+
+    red.push_back(tempVec[0]);
+    green.push_back(tempVec[1]);
+    blue.push_back(tempVec[2]);
+    tempVec.clear();
+}
 ```
 
 ## Challenge Problem 'Sentences'
-[Setences](https://github.com/Shivar-J/Cpp-Projects/blob/Sentences/Sentences/main.cpp) is a challenge problem where you have to add commas after every other word.
+[Setences](https://github.com/Shivar-J/Cpp-Projects/blob/Sentences/Sentences/main.cpp) is a challenge problem where you have to add commas after every other word without the use of vectors or arrays.
 
 ### Snippet of Code
 ```cpp
