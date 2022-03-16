@@ -39,7 +39,7 @@ void Transpose(vector<vector<int>> matrix, int size) {
         cout << endl;
     }
 }
-``
+```
 
 ## CompetingTables 
 
