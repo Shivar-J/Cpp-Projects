@@ -205,6 +205,26 @@ for(int i = 0; i < iter; i++) {
 }
 ```
 
+## ExceptionHandling Part 1
+[ExceptionHandling](https://github.com/Shivar-J/Cpp-Projects/blob/ExceptionHandling1/ExceptionHandling/main.cpp) displays basic error handling.
+
+### Snippet of Code
+```cpp
+for(int i = 0; i < stringNums.size(); i++) {
+    try {
+        if(stof(stringNums[i])) {
+            float tempNum = stof(stringNums[i]);
+            nums.push_back(tempNum);
+        } else {
+            throw 505;
+        }
+    } catch (...) {
+        cout << "Invalid Input!" << endl;
+        continue;
+    }
+}
+```
+
 ## Challenge Problem 'Sentences'
 [Setences](https://github.com/Shivar-J/Cpp-Projects/blob/Sentences/Sentences/main.cpp) is a challenge problem where you have to add commas after every other word without the use of vectors or arrays.
 
