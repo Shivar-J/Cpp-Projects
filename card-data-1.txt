@@ -1,0 +1,7 @@
+2:diamonds
+3:diamonds
+5:hearts
+6:diamonds
+2:diamonds
+2:diamonds
+3:clubs
