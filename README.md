@@ -256,3 +256,18 @@ replace(sentence.begin(), (sentence.begin() + end), ' ', ',');
 
 ## Poker Functions
 [Poker Functions](https://github.com/Shivar-J/Cpp-Projects/tree/PokerFunctions) recreates some basic poker functions ie. reading cards from file, sorting, checking cards, etc.
+
+### Snippet of Code
+```cpp
+sort(temp.begin(), temp.end());
+	vector<int> firstData = VectorPairToVector(temp);
+	map<int, unsigned int> intCount = counter(firstData);
+
+	for (auto&t : intCount) {
+		//cout << t.first << " " << t.second << endl;
+		if (t.second == 3) {
+			cout << "Three of a Kind Found!" << endl;
+			return true;
+		}
+	}
+```
