@@ -254,7 +254,5 @@ replace(sentence.begin()+start, sentence.begin()+(start + 1), ' ', '*');
 replace(sentence.begin(), (sentence.begin() + end), ' ', ',');
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## Poker Functions
+[Poker Functions](https://github.com/Shivar-J/Cpp-Projects/tree/PokerFunctions) recreates some basic poker functions ie. reading cards from file, sorting, checking cards, etc.
